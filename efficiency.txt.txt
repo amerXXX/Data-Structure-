@@ -1,0 +1,27 @@
+
+						public void addWord(String s)  
+        
+    
+
+[1]	The insertion process involves traversing the tree from the root to find the appropriate position for the new node. This traversal is done in a while loop, which iterates through the tree height, which is logarithmic in the number of nodes (log n). Therefore, the time complexity of the insertion operation in an AVL tree is O(log n).
+*************************************************************************************************
+  						public boolean findWord(String s) 
+        
+    
+
+[2]	The search function traverses the tree by comparing the input element with the current node's data. If the element is found, the function returns true. If the element is less than the current node's data, it moves to the left child. If the element is greater, it moves to the right child. This process continues until the element is found or a null node is reached. Since AVL trees are balanced binary search trees, the time complexity of searching in an AVL tree is O(log n),
+
+*************************************************************************************************
+						public void deleteWord(String s) 
+        
+   
+
+[3]	In the worst case scenario, the method will traverse the tree from the root to the node to be deleted, which takes O(log n) time in a balanced binary search tree. Additionally, if the node to be deleted has both left and right children, the code snippet finds the rightmost position in the left subtree of the node, which also takes O(log n) time
+*************************************************************************************************
+						public String[] findSimilar(String s) 
+
+[4]	In the worst case, the function will be called on every node in the tree, resulting in a time complexity of O(n). Additionally, the -isSimilar- function has a nested loop that iterates over the characters of the word and target strings, resulting in a time complexity of O(n^2). Therefore, the overall time complexity of the code snippet is O(n^2).
+*************************************************************************************************
+					        public void saveToFile(String filename) 
+
+[5]	in the worst case scenario, where the tree is completely unbalanced, the function will visit each node once, resulting in a time complexity of O(n), where n is the number of nodes in the tree.
