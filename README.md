@@ -12,6 +12,7 @@ Save and load dictionary from a file
 # Project Structure
 
 dictionary/
+
 ├── AVLTree.java     
 ├── BST.java        
 ├── BinaryTree.java  
