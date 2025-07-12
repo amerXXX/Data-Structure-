@@ -44,4 +44,4 @@ target/
 
 License
 
-MIT License © 2025 Amer Aziz Almutairi
+MIT License © 2025
